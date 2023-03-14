@@ -5,7 +5,7 @@ import requests
 
 class Test_MovieVoteAverage():
 
-    compair_average = float(5)
+    compair_average = float(5.5)
     movie_id = 522444
     api_key = "289278144021ecbb82d2eb430fae5722"
     url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}&language=en-US"
